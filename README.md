@@ -10,3 +10,8 @@
  ## Object
  - Object is a process of accessing a class value or proporties from outside the class.
  - Object is an instance of a class.
+
+  ## Properties
+  - Class member variables are called properties.
+  - Properties are variables of an object. They are the values associated with the object. 
+  - Properties are variable inside a class.
