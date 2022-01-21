@@ -5,3 +5,8 @@
  - Categorization of real life objects according to its attributes (variables) and behaviour (function).
 - A class is a blueprint for an object.  
  - Class is a template for objects
+
+
+ ## Object
+ - Object is a process of accessing a class value or proporties from outside the class.
+ - Object is an instance of a class.
