@@ -15,3 +15,11 @@
   - Class member variables are called properties.
   - Properties are variables of an object. They are the values associated with the object. 
   - Properties are variable inside a class.
+
+
+  ## Constructor
+- A constructor is a special type of member function of a class which initializes objects of a class.
+
+- In OOP Constructor is a special method. It is called whenever you create an object using new keyword. 
+
+- Constructors are automatically called when an object is created from a class
