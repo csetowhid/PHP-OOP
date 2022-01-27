@@ -23,3 +23,18 @@
 - In OOP Constructor is a special method. It is called whenever you create an object using new keyword. 
 
 - Constructors are automatically called when an object is created from a class
+
+## Inheritance
+- It is a concept of accessing the features from one class to another class.
+- The child class will inherit all the `public` and `protected` properties and methods from the parent class. 
+- In addition, it can have its own properties and methods.
+
+- An inherited class is defined by using the `extends` keyword.
+- Inheritance has three types, single, multiple and multilevel Inheritance.
+- PHP supports only single inheritance, where only one class can be derived from single parent class.
+
+- PHP doesn’t support multiple inheritance but by using Interfaces in PHP or using  `trait` in PHP instead of classes, we can implement it.
+
+- Traits: The trait is a type of class which enables multiple inheritance. Classes, case classes, objects, and traits can all extend no more than one class but can extend multiple traits at the same time.
+
+- [Multiple Inheritance in PHP](https://www.geeksforgeeks.org/multiple-inheritance-in-php/)
