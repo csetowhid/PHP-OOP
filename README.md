@@ -62,3 +62,38 @@ final -	Methods defined as final, cannot be changed or overridden by a subclass.
 <hr>
 
 - [PHP OOP Class Encapsulation (Access Modifiers) Tutorial](https://www.koderhq.com/tutorial/php/oop-encapsulation/)
+
+
+## Function overloading and Overriding in PHP
+
+Function overloading and overriding is the OOPs feature in PHP. 
+- In function overloading, more than one function can have same method signature but different number of arguments.
+
+- In case of function overriding, more than one functions will have same method signature and number of arguments. 
+
+### Function Overloading
+- Overloading is defining functions that have similar signatures, yet have different parameters.
+- Function overloading contains same function name and that function performs different task according to number of arguments. 
+- For example, find the area of certain shapes where radius are given then it should return area of circle if height and width are given then it should give area of rectangle and others.
+
+- Like other OOP languages function overloading can not be done by native approach. In PHP function overloading is done with the help of magic function __call(). This function takes function name and arguments. 
+
+
+### Function Overriding
+- Overriding is only pertinent to derived classes, where the parent class has defined a method and the derived class wishes to override that method.
+
+- Function overriding is same as other OOPs programming languages. 
+
+- In function overriding, both parent and child classes should have same function name with and number of arguments. 
+
+- It is used to replace parent method in child class. 
+
+- The purpose of overriding is to change the behavior of parent class method. 
+
+- The two methods with the same name and same parameter is called overriding.
+
+- Method overriding allows a child class to provide a specific implementation of a method already provided by its parent class.
+
+- To override a method, you redefine that method in the child class with the same name, parameters, and return type.
+
+[Function overloading and Overriding in PHP](https://www.geeksforgeeks.org/function-overloading-and-overriding-in-php/)
