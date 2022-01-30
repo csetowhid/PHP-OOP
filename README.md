@@ -97,3 +97,16 @@ Function overloading and overriding is the OOPs feature in PHP.
 - To override a method, you redefine that method in the child class with the same name, parameters, and return type.
 
 [Function overloading and Overriding in PHP](https://www.geeksforgeeks.org/function-overloading-and-overriding-in-php/)
+
+
+## Abstract Classes
+
+- An abstract class is a class that is initialized in parent class but implements in child class. Typically, an abstract defines an interface for other classes to extend.
+
+- Abstract classes and methods are when the parent class has a named method, but need its child class(es) to fill out the tasks.
+
+- An abstract class is a class that contains at least one abstract method. An abstract method is a method that is declared, but not implemented in the code.
+
+-  An abstract class can contain abstract as well as non abstract methods.
+
+-  Use of abstract classes are that all base classes implementing this class should give implementation of abstract methods declared in parent class.
