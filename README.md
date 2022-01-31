@@ -131,3 +131,10 @@ Function overloading and overriding is the OOPs feature in PHP.
 - Static functions are associated with the class, not an instance of the class. 
 
 - Static methods are declared with the `static` keyword
+
+
+## Traits
+
+- Traits are used to declare methods that can be used in multiple classes. 
+
+- A class in PHP can only have single inheritance. Traits are there to solve the problem.
