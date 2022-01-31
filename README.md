@@ -111,7 +111,6 @@ Function overloading and overriding is the OOPs feature in PHP.
 
 -  Use of abstract classes are that all base classes implementing this class should give implementation of abstract methods declared in parent class.
 
-
 ## Interface
 
 - In OOP, an interface is a collection of public methods that must be implemented by the classes that use them.
@@ -123,3 +122,12 @@ Function overloading and overriding is the OOPs feature in PHP.
 - After implementing an interface in a class, all the abstract methods in the interface should be declared in the class.
 
 - An interface consists of methods that have no implementations, which means the interface methods are abstract methods.
+
+
+## Static
+
+- Any method declared as static is accessible without the creation of an object.
+
+- Static functions are associated with the class, not an instance of the class. 
+
+- Static methods are declared with the `static` keyword
