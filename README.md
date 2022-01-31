@@ -110,3 +110,16 @@ Function overloading and overriding is the OOPs feature in PHP.
 -  An abstract class can contain abstract as well as non abstract methods.
 
 -  Use of abstract classes are that all base classes implementing this class should give implementation of abstract methods declared in parent class.
+
+
+## Interface
+
+- In OOP, an interface is a collection of public methods that must be implemented by the classes that use them.
+
+- An interface can define method names and arguments, but not the contents of the methods.
+
+- An interface can only have method signatures. It means that all the methods cannot have a body - only the declaration. And, all the methods must have public visibility.
+
+- After implementing an interface in a class, all the abstract methods in the interface should be declared in the class.
+
+- An interface consists of methods that have no implementations, which means the interface methods are abstract methods.
